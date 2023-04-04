@@ -1,0 +1,26 @@
+GET http://localhost:3000/subscribers
+
+###
+POST http://localhost:3000/subscribers
+Content-Type: application/json
+
+{
+    "name": "Roshayyyyy",
+    "subscribedToChannel":"Kalpana's easy recipie"  
+}
+
+###
+//PATCH http://localhost:3000/subscribers/642ae577031267b2db19b9a0
+
+###
+DELETE http://localhost:3000/subscribers/642ae577031267b2db19b9a0
+
+
+###
+PATCH http://localhost:3000/subscribers/642afc6077d1b83fcdc44f58
+Content-Type: application/json
+
+
+{
+    "name": "New Name"
+}
